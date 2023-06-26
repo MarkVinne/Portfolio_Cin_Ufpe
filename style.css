@@ -1,0 +1,149 @@
+body {
+    background: linear-gradient(to top, #000000 , #54152b);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headerp {
+    margin-bottom: 10px;
+    display: block;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #7bff00;
+    background-color: #070003;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    border: 3px solid #ee3878;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: block;
+    padding: 20px;
+    background-color: #5bda00;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.links li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.links :hover {
+    background-color: #ee3878;
+    color: #fff;
+    font-size: 18px;
+}
+
+.divider {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sobremim {
+    animation: expand 0.5s;
+    color: #ffffff;
+}
+
+
+.section-title {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ee3878;
+    transition: transform 0.3s;
+}
+
+.section-title:hover{
+    color: #7bff00;
+    transform: scale(1.05);
+}
+
+.site-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.gif {
+    margin-bottom: 10px;
+    width: 270px;
+    height: 270px;
+    border: 3px solid #7bff00;
+    transition: transform 0.3s;
+}
+
+.gif:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    border: 3px solid #ee3878;
+}
+.footer {
+    display: block;
+    padding: 15px;
+    color: #7bff00;
+    background-color: #060002;
+}
+
+.titulo1 {
+    margin: 10px;
+    color: #7bff00;
+    transition: transform 0.3s;
+}
+.titulo1:hover {
+    color: #ee3878;
+    transform: scale(1.05);
+}
